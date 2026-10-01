@@ -1,0 +1,12 @@
+dataset:
+  file: data/transactions.csv
+
+validation:
+  primary_key: transaction_id
+  required_columns:
+    - transaction_id
+    - customer_id
+    - transaction_date
+    - amount
+  positive_columns:
+    - amount

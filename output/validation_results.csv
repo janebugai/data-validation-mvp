@@ -1,0 +1,7 @@
+check,column,status,failed_rows
+unique,transaction_id,FAIL,2
+not_null,transaction_id,PASS,0
+not_null,customer_id,FAIL,1
+not_null,transaction_date,PASS,0
+not_null,amount,PASS,0
+positive,amount,FAIL,1
